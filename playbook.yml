@@ -1,6 +1,6 @@
 ---
  - hosts: wp
-   remote_user: user
+   remote_user: jonathan
    become: yes
    tasks:
      - name: "Executa o container MySQL"
